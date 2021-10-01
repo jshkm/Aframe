@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets> <img id="sky" src="inspo.jpg"></a-assets>
+      <a-sphere position="-.5 1.65 -24" radius="15.5" color="#E7DDDA"></a-sphere>
+      <a-sphere position=".5 1.65 -24" radius="15.5" color="#2980D5"></a-sphere>
+      <a-sphere position="-.1 1.65 -10" radius="4.5" color="#000000"></a-sphere>
+      <a-sphere position=".1 1.65 -10" radius="4.5" color="#E19827"></a-sphere>
+      <a-sphere position="-.1 1.65 -5" radius="1.5" color="#000000"></a-sphere>
+      <a-sphere position=".1 1.65 -5" radius="1.5" color="#FF948E"></a-sphere>
+      <a-triangle position="0, 1.65, -3.5" vertex-a="0 .07 0" vertex-b="-.07 0 0" vertex-c="0 0 0" color="#D52929"></a-triangle> 
+      <a-triangle position="0, 1.65, -3.5" vertex-a="0 .07 0" vertex-b="0 0 0" vertex-c=".07 0 0" color="#000000"></a-triangle> 
+      <a-sky src=#sky></a-sky>
+    </a-scene>
+  </body>
+</html>
